@@ -91,7 +91,7 @@ def mk_tbl(file_in,
             output.write('        <name>' +
                          current_site +
                          '</name>\n')
-            output.write('            <description>Bat recordings, with species ID at' +
+            output.write('            <description>Recordings of species at ' +
                          current_site +
                          '</description>)')            
 
