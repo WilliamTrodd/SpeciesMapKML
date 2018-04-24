@@ -1,5 +1,7 @@
 import openpyxl
 
+### Ver0.1, created 04/18
+
 ### This function will run through a file and create a 2d list of locations
 ### and their associated recorded species
 
