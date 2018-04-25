@@ -1,6 +1,8 @@
 import openpyxl
 
 ### Ver0.1, created 04/18
+### To-Do: species colour dictionary     species_colour = {"P. pipistrellus":"yellow","P. pygmaeus":"red","Myotis sp.":"}
+###                                     green, red, yellow, blue, purple, pink, orange, brown
 
 ### This function will run through a file and create a 2d list of locations
 ### and their associated recorded species
@@ -35,7 +37,16 @@ def mk_tbl(file_in,
            lat_col,
            lon_col):
 
-    
+    ### This is a temporary solution to deal with colours with my own dataset and will be changed in later versions
+    species_colour = {"P. pipistrellus":"grn",
+                      "P. pygmaeus":"red",
+                      "Myotis nattereri":"ylw",
+                      "Myotis sp.":"blue",
+                      "Sp. 1":"purple",
+                      "Sp. 2":"pink",
+                      "Sp. 3":"ltblu",
+                      "NSL":"wht"}
+    ###
     
     ### Imports data from excel spreadsheet 
     wb = openpyxl.load_workbook(file_in, data_only=True)
@@ -88,12 +99,15 @@ def mk_tbl(file_in,
             output.write('<?xml version="1.0" encoding="UTF-8"?>\n')
             output.write('<kml xmnls="http://www.opengis.net/kml/2.2">\n')
             output.write('  <Document>\n    <Folder>\n')
+            ###output.write('      <Style id="
             output.write('        <name>' +
                          current_site +
                          '</name>\n')
             output.write('            <description>Recordings of species at ' +
                          current_site +
                          '</description>)')            
+
+        
 
 
         if row[sp_col].value != "NONE":
@@ -109,6 +123,7 @@ def mk_tbl(file_in,
                 output.write('    <Placemark>\n    <name>' +
                              str(row[sp_col].value)+
                              '</name>\n')
+            output.write('        <Icon>\n        <href>http://maps.google.com/mapfiles/kml/pushpin/{0}-pushpin.png</href>\n       </Icon>'.format(species_colour[str(row[sp_col].value)]))
             output.write('      <description>Recording: ' +
                          str(marker_num) +
                          '\n')
