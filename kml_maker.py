@@ -119,11 +119,10 @@ def mk_tbl(file_in,
                              str(row[sp_col+1].value) +
                              '</name>\n')
             else:
-                print(row[sp_col].value)
                 output.write('    <Placemark>\n    <name>' +
                              str(row[sp_col].value)+
                              '</name>\n')
-            output.write('        <Icon>\n        <href>http://maps.google.com/mapfiles/kml/pushpin/{0}-pushpin.png</href>\n       </Icon>'.format(species_colour[str(row[sp_col].value)]))
+            output.write('       <Style><IconStyle> <Icon>\n        <href>http://maps.google.com/mapfiles/kml/pushpin/{0}-pushpin.png</href>\n       </Icon></IconStyle></Style>'.format(species_colour[str(row[sp_col].value)]))
             output.write('      <description>Recording: ' +
                          str(marker_num) +
                          '\n')
