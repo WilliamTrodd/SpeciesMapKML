@@ -1,8 +1,12 @@
 import openpyxl
+import kivy
+
 
 ### Ver0.1, created 04/18
 ### To-Do: species colour dictionary     species_colour = {"P. pipistrellus":"yellow","P. pygmaeus":"red","Myotis sp.":"}
-###                                     green, red, yellow, blue, purple, pink, orange, brown
+###                                     green, red, yellow, blue, purple, pink,orange, brown
+###        different folders for each species, makes separating them easier in GE
+###        GUI
 
 ### This function will run through a file and create a 2d list of locations
 ### and their associated recorded species
@@ -47,13 +51,13 @@ def mk_tbl(file_in,
                       "Sp. 3":"ltblu",
                       "NSL":"wht"}
     ###
-    
-    ### Imports data from excel spreadsheet 
+
+    ### Imports data from excel spreadsheet
     wb = openpyxl.load_workbook(file_in, data_only=True)
     ### Imports the sheet
     data = wb[sheet]
 
-    
+
     ########################
     #                      #
     # Loop through list to #
@@ -67,7 +71,7 @@ def mk_tbl(file_in,
 
     current_site = "" # this will help make seperate kml files
     current_transect = 0
-    
+
     ### This will loop through each site, moving to a new path
     ### in the kml file each time
     for row in data.iter_rows(min_row=2,
@@ -95,7 +99,7 @@ def mk_tbl(file_in,
                           str(current_transect) +
                           ".kml","w"
                           )
-            
+
             output.write('<?xml version="1.0" encoding="UTF-8"?>\n')
             output.write('<kml xmnls="http://www.opengis.net/kml/2.2">\n')
             output.write('  <Document>\n    <Folder>\n')
@@ -105,9 +109,9 @@ def mk_tbl(file_in,
                          '</name>\n')
             output.write('            <description>Recordings of species at ' +
                          current_site +
-                         '</description>)')            
+                         '</description>)')
 
-        
+
 
 
         if row[sp_col].value != "NONE":
@@ -138,7 +142,7 @@ def mk_tbl(file_in,
                          ',' +
                          str(row[lat_col].value) +
                          '</coordinates>\n    </Point>\n    </Placemark>\n\n')
-        
+
 
     try:
         output.write('\n    </Folder>\n  </Document>\n</kml>')
@@ -146,8 +150,8 @@ def mk_tbl(file_in,
         print("closing")
     except:
         print("nothing to close")
-        
-        
+
+
 
 mk_tbl((input('What is the name of the excel spreadsheet? ')+'.xlsx'),
        (input('What is the name of the sheet? ')),
@@ -158,4 +162,4 @@ mk_tbl((input('What is the name of the excel spreadsheet? ')+'.xlsx'),
        (int(input('What column is the image link in? '))),
        (int(input('What column is the latitude in? '))),
        (int(input('What column is the longitude in? '))))
-   
+
