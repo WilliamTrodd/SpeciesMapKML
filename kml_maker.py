@@ -113,7 +113,6 @@ def mk_tbl(file_in,
 
 
 
-
         if row[sp_col].value != "NONE":
             marker_num += 1
             if row[sp_col+1].value != "NONE":

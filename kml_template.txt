@@ -1,0 +1,35 @@
+<Placemark>
+    <name>
+        {0}
+    </name>
+	<Style>
+		<LabelStyle>
+			<scale>
+				{1}
+			</scale>
+		</LabelStyle>
+		<IconStyle>
+			<scale>
+				{1}
+			</scale>
+			<color>
+			    {2}
+			</color>
+			<Icon>
+				<href>
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+				</href>
+			</Icon>
+		</IconStyle>
+	</Style>      
+	<description>
+		Recording: {3}
+		Time: {4}
+	</description>
+
+	<Point>
+		<coordinates>
+			{5},{6}
+		</coordinates>
+	</Point>
+</Placemark>

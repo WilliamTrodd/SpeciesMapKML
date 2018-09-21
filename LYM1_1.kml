@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmnls="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Folder>
+        <name>LYM1</name>
+            <description>Recordings of species at LYM1</description>)<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffce735c
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 1
+
+		Time: 21:41:28
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ff902040
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 2
+
+		Time: 21:41:32
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffb6ed3b
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 3
+
+		Time: 21:41:36
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ff425014
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 4
+
+		Time: 21:41:42
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ff425014
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 5
+
+		Time: 21:41:48
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffce735c
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 6
+
+		Time: 21:41:52
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffce735c
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 7
+
+		Time: 21:41:56
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ff902040
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 8
+
+		Time: 21:42:00
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffed3be0
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 9
+
+		Time: 21:42:04
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffed3be0
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 10
+
+		Time: 21:42:08
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+<Placemark>
+
+    <name>
+
+        LYM1
+
+    </name>
+
+	<Style>
+
+		<LabelStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+		</LabelStyle>
+
+		<IconStyle>
+
+			<scale>
+
+				2.5
+
+			</scale>
+
+			<color>
+
+			    #ffed3be0
+
+			</color>
+
+			<Icon>
+
+				<href>
+
+					http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png
+
+				</href>
+
+			</Icon>
+
+		</IconStyle>
+
+	</Style>      
+
+	<description>
+
+		Recording: 11
+
+		Time: 21:42:12
+
+	</description>
+
+
+
+	<Point>
+
+		<coordinates>
+
+			50.7503333333333,-1.52963333333333
+
+		</coordinates>
+
+	</Point>
+
+</Placemark>
+
+    </Folder>
+  </Document>
+</kml>
