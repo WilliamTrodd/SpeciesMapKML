@@ -24,6 +24,7 @@
 	</Style>      
 	<description>
 		Recording: {3}
+		Species present: {7}
 		Time: {4}
 	</description>
 

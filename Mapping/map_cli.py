@@ -87,7 +87,7 @@ def mk_kml(sheet,
                                             )+1
                               ):
 
-        ##current_site = row[site_col].value
+        current_site = row[site_col].value
         current_time = row[time_col].value
         ##current_transect = row[transect_col].value
         ##current_img = row[img_col].value
@@ -95,14 +95,13 @@ def mk_kml(sheet,
         current_long = row[long_col].value
         current_sp = row[species_cols[0]-1].value
 
-
         if current_site != None:
             if current_transect != row[transect_col].value:
                 try:
                     output.write('\n    </Folder>\n  </Document>\n</kml>')
                 except:
                     print("whoops")
-                current_site = row[site_col].value
+                ##current_site = row[site_col].value
                 current_transect = row[transect_col].value
                 marker_num = 0
                 output = open(current_site +
@@ -122,15 +121,24 @@ def mk_kml(sheet,
                              '</description>)')
 
             if current_sp != "NONE":
-                print("adding species record")
+                all_species = ""
+                for x in range(len(species_cols)):
+                    spec = row[species_cols[x]-1].value
+                    if spec != "NONE":
+                        if x == len(species_cols)-1:
+                            all_species += spec
+                        else:
+                            all_species += (spec + ",")
+                all_species = all_species.strip(',')
                 marker_num += 1
                 output.write(template.format(current_site,
                                              scale,
                                              species_colours[current_sp],
                                              marker_num,
                                              current_time,
+                                             current_long,
                                              current_lat,
-                                             current_long)   ## writing wrong details to kml but colours work!!!!
+                                             all_species)   ## writing wrong details to kml but colours work!!!!
                             )
     try:
         output.write('\n    </Folder>\n  </Document>\n</kml>')
